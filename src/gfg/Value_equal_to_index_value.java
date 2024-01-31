@@ -21,6 +21,7 @@ public class Value_equal_to_index_value {
            if(arr[i]==i)
                arr1.add(arr[i]);
 
+
        }
 
         return arr1;
