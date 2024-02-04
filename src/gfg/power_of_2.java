@@ -45,7 +45,10 @@ public class power_of_2 {
             int tmp2 =0;
             int [] a = new int[2];
            for (int i = 0; i < n; i++) {
-               if (arr[i] >= x)
+               if(arr[i] == x){
+                   tmp++;
+               }
+               if (arr[i] > x)
                    tmp++;
                else
                    tmp2++;
